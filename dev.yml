@@ -60,7 +60,7 @@
 
     - name: COPY APP file
       copy:
-        src: /home/ubuntu/boxfuse_src/target/hello-1.0.war
+        src: /home/ubuntu/hello-1.0.war
         dest: /var/lib/tomcat9/webapps
 
 
