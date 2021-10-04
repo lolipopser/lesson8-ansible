@@ -34,6 +34,7 @@
       fetch:
         src: /var/boxfuse_src/target/hello-1.0.war
         dest: /home/ubuntu
+        flat: yes
 
 
 - name: Install WEB
