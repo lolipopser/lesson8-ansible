@@ -42,10 +42,10 @@
 
   tasks:
 
-    - name: install GIT
+    - name: Ensure GIT is present
       apt:
         name: git
-        status: present
+        state: present
 
     - name: Install TOMCAT9
       apt:
