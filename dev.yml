@@ -33,7 +33,7 @@
     - name: FETCH APP
       fetch:
         src: /var/boxfuse_src/target/hello-1.0.war
-        dest: /tmp
+        dest: /tmp/hello-1.0.war
 
 
 - name: Install WEB
