@@ -54,7 +54,7 @@
 
     - name: Ensure TOMCAT9 is started
       service:
-        name: tomcat
+        name: tomcat9
         state: started
 
     - name: COPY APP file
