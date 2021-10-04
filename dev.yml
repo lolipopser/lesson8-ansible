@@ -28,11 +28,11 @@
     - name: BUILD APP
       shell: mvn package
       args:
-        chdir: /var/boxfuse_src/boxfuse-sample-java-war-hello
+        chdir: /var/boxfuse_src
 
     - name: FETCH APP
       fetch:
-        src: /var/boxfuse_src/boxfuse-sample-java-war-hello/target/hello-1.0.war
+        src: /var/boxfuse_src/target/hello-1.0.war
         dest: /tmp
 
 
