@@ -50,12 +50,12 @@
     - name: Install TOMCAT9
       apt:
         name: tomcat9
-        status: present
+        state: present
 
     - name: Ensure TOMCAT9 is started
       service:
         name: tomcat
-        status: started
+        state: started
 
     - name: COPY APP file
       copy:
