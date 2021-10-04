@@ -33,7 +33,7 @@
     - name: FETCH APP
       fetch:
         src: /var/boxfuse_src/target/hello-1.0.war
-        dest: /tmp/hello-1.0.war
+        dest: /tmp/
 
 
 - name: Install WEB
@@ -59,7 +59,7 @@
 
     - name: COPY APP file
       copy:
-        src: /tmp/hello-1.0.war
+        src: /tmp/boxfuse_src/target/hello-1.0.war
         dest: /var/lib/tomcat9/webapps
 
 
